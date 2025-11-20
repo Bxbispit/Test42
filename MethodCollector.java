@@ -20,6 +20,10 @@ public class MethodCollector {
         aAnotherMethod();
         aSecondMethod();
         methodCounter++;
+
+        nilsMethode();
+        methodCounter++;
+    }
         alexMethod();
         methodCounter++;
 
@@ -59,6 +63,10 @@ public class MethodCollector {
 
     private static void alexMethod() {
         System.out.println("MethodCollector alexMethod: This method has been created     by alex ");
+    }
+
+    private static void nilsMethode() {
+        System.out.println("MethodCollector: This method has been created     by Nils ");
     }
 
     private static void aThirdMethod() {
