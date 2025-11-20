@@ -19,6 +19,9 @@ public class MethodCollector {
         aAnotherMethod();
         aSecondMethod();
         methodCounter++;
+
+        printTicTacToeBoard();
+        methodCounter++;
     }
 
 
@@ -33,6 +36,12 @@ public class MethodCollector {
         System.out.println("MethodCollector aSecondMethod: This method has been created     by heisob ");
     }
 
+    private static void printTicTacToeBoard() {
+        System.out.println("   |   |   ");
+        System.out.println("---+---+---");
+        System.out.println("   |   |   ");
+        System.out.println("---+---+---");
+        System.out.println("   |   |   ");
     private static void henrysMethod() {
         System.out.println("Henry hat eine methode erstellt");
     }
