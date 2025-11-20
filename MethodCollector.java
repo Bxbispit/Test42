@@ -22,6 +22,9 @@ public class MethodCollector {
         methodCounter++;
         anotherOne();
 
+        aThirdMethod();
+        methodCounter++;
+
         printTicTacToeBoard();
         methodCounter++;
     }
@@ -44,6 +47,10 @@ public class MethodCollector {
 
     private static void aSecondMethod() {
         System.out.println("MethodCollector aSecondMethod: This method has been created     by heisob ");
+    }
+
+    private static void aThirdMethod() {
+        System.out.println("MethodCollector aThirdMethod");
     }
 
     private static void printTicTacToeBoard() {
